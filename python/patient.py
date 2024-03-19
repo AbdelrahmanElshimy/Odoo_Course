@@ -75,3 +75,5 @@ class HospitalPatient(models.Model):
             vals['name_seq'] = self.env['ir.sequence'].next_by_code('hospital.patient.sequence') or _('New')
         result = super(HospitalPatient, self).create(vals)
         return result
+        
+        #git
